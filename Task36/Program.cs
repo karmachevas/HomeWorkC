@@ -29,7 +29,7 @@ void PrintArray(int[] array)
 void PrintSummElemNotEvenPosArray(int[] array)
 {
     int summ = 0;
-    for (int i = 0; i < array.Length - 1; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         if (i % 2 == 0)
         {
